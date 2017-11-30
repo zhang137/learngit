@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1510208588 source:/home/usr/projects/slidingWindowPro/main.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<unistd.h>
+	<pthread.h>
+	<time.h>
+	"fileinfolist.h"
+	"filetransfer.h"
+	"slidingwindow.h"
+	"message.h"
+
+1510200081 /home/usr/projects/slidingWindowPro/slidingwindow.h
+	<string.h>
+	"sysglobalparam.h"
+
+1510199573 source:/home/usr/projects/slidingWindowPro/slidingwindow.cpp
+	<cstring>
+	<unistd.h>
+	"message.h"
+	"slidingwindow.h"
+
+1510207192 source:/home/usr/projects/slidingWindowPro/filetransfer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/socket.h>
+	<string.h>
+	<errno.h>
+	"filetransfer.h"
+	"message.h"
+
+1510209610 /home/usr/projects/slidingWindowPro/filetransfer.h
+	"types.h"
+	"slidingwindow.h"
+	<netinet/in.h>
+	<string>
+
+1510129590 /home/usr/projects/slidingWindowPro/retransmissionthread.h
+	<cstring>
+	<unistd.h>
+	<pthread.h>
+	<netinet/in.h>
+	"message.h"
+
+1510129577 source:/home/usr/projects/slidingWindowPro/retransmissionthread.cpp
+	"retransmissionthread.h"
+	"sysglobalparam.h"
+
+1510214908 /home/usr/projects/slidingWindowPro/message.h
+	<string>
+	"types.h"
+
+1510200228 source:/home/usr/projects/slidingWindowPro/udpservice.cpp
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<errno.h>
+	<string.h>
+	<pthread.h>
+	<sys/epoll.h>
+	<time.h>
+	"udpservice.h"
+
+1510199387 /home/usr/projects/slidingWindowPro/udpservice.h
+	<string>
+	"sysglobalparam.h"
+	"filetransfer.h"
+	"fileinfolist.h"
+	"message.h"
+	"slidingwindow.h"
+	"retransmissionthread.h"
+	<netinet/in.h>
+
+1510200006 /home/usr/projects/slidingWindowPro/sysglobalparam.h
+	"types.h"
+
+1510209527 /home/usr/projects/slidingWindowPro/fileinfolist.h
+	"filetransfer.h"
+	"types.h"
+	<string>
+
+1510126555 /home/usr/projects/slidingWindowPro/types.h
+	<stdio.h>
+
