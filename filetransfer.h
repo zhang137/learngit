@@ -3,7 +3,8 @@
 
 #include "types.h"
 #include "slidingwindow.h"
-//#include <netinet/in.h>
+#include <netinet/in.h>
+
 #include <string>
 
 using std::string;
